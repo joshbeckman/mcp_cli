@@ -26,7 +26,7 @@ gem exec mcp_cli tools my-server
 gem exec mcp_cli call my-server my-tool --arg value
 ```
 
-This is perfect for trying out the tool or using it in scripts without adding dependencies.
+This is perfect for trying out the tool or using it in scripts without adding dependencies. [`gem exec` supports fast software](https://www.joshbeckman.org/blog/practicing/the-gem-exec-command-gives-me-hope-for-ruby-in-a-world-of-fast-software).
 
 ## Installation (Optional)
 
