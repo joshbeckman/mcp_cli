@@ -204,8 +204,8 @@ bundle install
 # Run tests
 bundle exec rspec
 
-# Test locally with gem exec
-gem exec -g mcp_cli.gemspec mcp list
+# Test locally without installing
+ruby -Ilib exe/mcp list
 ```
 
 ## License

@@ -93,7 +93,7 @@ module MCPCli
 
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = uri.scheme == 'https'
-      http.read_timeout = 30
+      http.read_timeout = 60
 
       request = Net::HTTP::Post.new(uri.path.empty? ? '/' : uri.path)
       request['Content-Type'] = 'application/json'
