@@ -1,5 +1,7 @@
 # MCP CLI
 
+[![Gem Version on RubyGems.org](https://badge.fury.io/rb/mcp_cli.svg)](https://badge.fury.io/rb/mcp_cli)
+
 A zero-dependency command-line interface for interacting with [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) servers. MCP enables AI assistants to securely connect to local and remote resources through a standardized protocol.
 
 Perfect for developers who need to:
@@ -9,6 +11,9 @@ Perfect for developers who need to:
 - Explore available tools and resources
 
 Supports both stdio and HTTP transports with automatic configuration discovery.
+
+> [!NOTE]
+> Read about the reason I built this and what you can use it to do: [Making MCP Tool Calls Scriptable with mcp_cli](https://www.joshbeckman.org/blog/practicing/making-mcp-tool-calls-scriptable-with-mcpcli)
 
 ## Requirements
 
